@@ -1,0 +1,21 @@
+%center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+body{
+    @extend %center;
+    height: 100vh; 
+    background-color: #f1f1f1;;
+
+}
+input,label{
+   @extend %center;
+  }
+
+select{
+    margin-bottom: 10px;
+    margin-top:10px;
+}
